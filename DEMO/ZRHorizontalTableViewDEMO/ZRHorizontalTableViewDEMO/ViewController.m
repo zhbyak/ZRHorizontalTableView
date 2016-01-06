@@ -37,6 +37,7 @@ static NSString * const reuseID = @"zhbyak";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //设置大小
     CGRect frame = CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 300);
     
     //初始化方法
